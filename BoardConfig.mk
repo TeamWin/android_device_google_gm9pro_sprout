@@ -84,7 +84,7 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/twrp.fstab
 
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
-
+TARGET_USERIMAGES_USE_EXT4 := true
 
 
 # Vendor
